@@ -1,0 +1,40 @@
+3. Write a short note on tags, e5ements, and attributes a5ong ith re5evant examples.
+Ans->tags-tags are used to define elements in an HTML documents.
+*tags are sorrounded by angle brackets(<>)and used to markup content of a web page.
+*HTML tags can be either opening tag or closing tags,and they define the beginning and end of an element.
+ex-<div>,<table>,<ol>
+
+4.List out any 3 tags e 5earned in this modu5e and give a brief exp5anation about the tags.
+ans-<h1></h1>->this tag used for define the title or sub title of a webpage.
+<p></p>->This tag used to represent a piece of a text that forms a distinct block of a content.in HTML,each paragraph
+ is put inside the <p>tag.
+<ol></ol>->this tag used to create the ordered list to arrange data in a row or a clumns.
+
+5. What is emmet List some of the advantages emmet offerss?
+ans->Emmet is a shorthand abbreviation syntax for writing HTML and other markup languages in a more concise and efficient manner.
+it offers* write the code faster.
+                *save the time.
+                *reduce error.
+7. Explain in brief about the nesting operators in emmet.
+Ans->Nesting operators help to place elements with respect to other elements.
+1.Child ('>'): The child operator represents a direct child element. It is used to specify that one element is the direct child 
+of another element.
+2.Sibling ('+'): The sibling operator is used to indicate that elements are siblings, i.e., they share the same parent. It allows 
+you to create multiple elements on the same level. 
+3.Climb Up (^): The climb up operator moves up the hierarchy to the parent element. It is used when you want to move up 
+and create an element at a higher level.
+
+8.What are selfclosing tags Write a brief note on meta tags?
+*self closing atgs->HTML elements without a closing tag are known as self-closing tags or void elements. They are applied to
+ elements with no content or with content that can only be specified through attributes. Self-closing tags are expressed in a 
+single tag format rather than having an opening and closing tag.
+ex-<br/>,<img>
+*meta tags->Meta tags are HTML components that give details about a web page. They are not shown on the actual web page
+ rather, they are inserted in the head section of an HTML document. A web page's title, description, author, character encoding, 
+viewport settings, and other information are provided in the meta tags.
+10. What are global attributes List any 5 global attributes.
+In HTML, global attributes are those that can be applied to any element, regardless of its type. These characteristics give elements
+ common capabilities and behaviours. 
+ex-><id>,<class>,<title>
+
+
