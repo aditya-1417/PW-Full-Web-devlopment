@@ -1,0 +1,62 @@
+1.List out feature of HTML5.
+*HTML5 provides native functionality for embedding audio and video content without the use of
+ third-party plugins such as Flash. The audio> and video> elements  facilitate the incorporation
+ of multimedia elements directly into web pages.
+*HTML5 added new semantic elements such as header>, footer>, nav>, article>, section>, and aside>. 
+These features provide online content a more defined structure.
+*Canvas: HTML5 introduces the canvas> element, which allows JavaScript to dynamically render visuals
+ and animations. It includes a robust 2D drawing API for developing visual effects and games.
+*HTML5 introduces the Geolocation API, which allows websites to access a user's geographic location.
+ This functionality enables location-based services and applications.
+*Offline Storage: HTML5 introduces tools for saving data on the user's device such as Web Storage 
+(localStorage and sessionStorage) and IndexedDB. This allows web applications to function offline and
+ boosts performance.
+
+2.What is HTML entities?LIst out five commenly HTML entities.
+HTML entities are special characters that have reserved meanings in HTML markup. Instead of using the
+ characters directly, you can represent them using their corresponding entity names or entity numbers. 
+&lt;: Represents the less-than symbol <.
+&gt;: Represents the greater-than symbol >.
+&amp;: Represents the ampersand symbol &.
+&quot;: Represents the double quotation mark ".
+&copy;: Represents the copyright symbol ©.
+
+3.What is web accsesiblility?List some of assistive device which play a major role in providing accessibility.
+*Screen Readers: These software applications use synthesised speech or Braille output to read the text on the screen.
+ JAWS, NVDA, and VoiceOver are a few examples.
+*Screen magnifiers magnify the material on the screen, making it easier to read for those with low vision. 
+This category includes built-in magnification functions on operating systems such as Windows, macOS, and mobile devices.
+*Alternative Input Devices: These devices allow people to interact with computers without using a typical keyboard 
+or mouse. Alternative keyboards, head pointers, eye-tracking gadgets, and sip-and-puff systems are a few examples.
+
+4. List any 3 ways which helps us in mproving accessibility of HTML.
+*Use semantic markup for clear content structure.
+*Add descriptive alt text to images.
+*Ensure keyboard accessibility for easy navigation.
+
+5.Write a short note on tab index.
+When using the Tab key on a keyboard, you can change the order in which elements acquire focus by using the tabindex
+attribute in HTML. HTML elements are included in the tab order by default based on their position in the HTML document. 
+However, in some circumstances, you may wish to change the order of the tabs to improve accessibility or the user experience.
+1. tabindex="0" -  this option allows elements that are not usually able to be focused via the keyboard to become focusable. This value of tabindex is particularly beneficial.
+2. tabindex="-1" - this option enables elements that are not typically focusable to receive focus programmatically, such as through JavaScript, or as the target of links.
+
+6. List any 5 semantic tags in HTML along with thier descriptions.
+1. `<header>`: Represents the introductory content or header section of a document.
+2. `<nav>`: Defines a section of navigation links.
+3. `<main>`: Represents the main content of a document.
+4. `<article>`: Represents a self-contained piece of content.
+5. `<footer>`: Defines the footer section of a document.
+
+7. What are the benefits of using semantic tags in our webpage.
+Benefits of using semantic tags in a webpage:
+* Improved accessibility for people with disabilities.
+* Better search engine optimization (SEO) and visibility.
+* Readability and maintainability of code.
+* Future compatibility with evolving HTML standards.
+* Consistency and standardization across web pages.
+* Adaptability to different devices.
+
+
+
+
